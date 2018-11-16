@@ -49,6 +49,10 @@ header .container-fluid .hero h2 {
   padding: 126px 0 110px 0;
 }
 
+.info {
+  text-align: justify;
+}
+
 footer {
   background-image: linear-gradient(#2a004c, #000);
   position: fixed;
