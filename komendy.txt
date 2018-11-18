@@ -1,0 +1,5 @@
+node_modules/.bin/autoprefixer-cli -o sass/style.prefixed.css sass/style.css
+/ -konwertuje plik CSS dodaj¹c prefixy wymagane przez niektóre przegl¹darki /
+
+node_modules/.bin/nu-html-checker *.html
+/ -wyœwietla listê b³êdów we wszystkich plikach .html /
