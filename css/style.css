@@ -1,0 +1,29 @@
+* { box-sizing: border-box; }
+
+body { margin: 0; padding: 0; color: #fff; background-color: #372a4f; }
+
+.container { width: 100%; }
+
+[class*="col-"] p, h3 { text-align: center; }
+
+header { position: fixed; top: 0; left: 0; right: 0; z-index: 10; }
+
+header .container-fluid { margin: 0 auto; padding: 0; }
+
+header .container-fluid .hero { text-align: center; background-image: linear-gradient(#000, #2a004c); }
+
+header .container-fluid .hero h1 { margin: 0; padding-top: 20px; }
+
+header .container-fluid .hero h2 { padding-bottom: 20px; }
+
+.verse { margin: 50px auto; padding: 126px 0 110px 0; }
+
+.info { text-align: justify; }
+
+footer { background-image: linear-gradient(#2a004c, #000); position: fixed; bottom: 0; left: 0; right: 0; }
+
+footer .container { margin: 0 auto; padding: 0; display: flex; }
+
+footer .container .song-link { text-align: center; margin: 0 auto; padding: 20px; }
+
+footer .container .song-link a { text-decoration: none; color: #fff; }
